@@ -1,4 +1,4 @@
-FROM python:3.12.0a1-buster
+FROM python:3.9.2-slim
 RUN apt-get update &&\
     /usr/local/bin/python3 -m pip install --upgrade pip &&\
     /usr/local/bin/python3 -m pip install --upgrade setuptools &&\
